@@ -3,11 +3,11 @@ body{
     padding: 0;
     background-color: black;
     color: white;
-    background-image: url("images/Прямоугольник 10.png");
+    background-image: url("Прямоугольник 10.png");
     /* overflow-x: hidden; */
 }
 .divi{
-    background-image: url("images/alexander-popov-522100-unsplash.png");
+    background-image: url("alexander-popov-522100-unsplash.png");
     /* display: grid; */
 }
 
