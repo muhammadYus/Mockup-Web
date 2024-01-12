@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-image: url("images/Прямоугольник 10.png");
+    /* overflow-x: hidden; */
+}
+.divi{
+    background-image: url("images/alexander-popov-522100-unsplash.png");
+    /* display: grid; */
+}
+
+
+
+.navbar{
+    /* justify-content: center; */
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 800px;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    height: 80px;
+    align-items: center;
+    gap: 60px;
+    
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.img1{
+    width: 400px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.special{
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.the-first-logo{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+
+}
+section{
+    /* justify-content: center; */
+    /* text-align: center; */
+    
+    font-size: 28pt;
+}
+
+.content-section{
+    width: 1100px;
+    height: 500px;
+    /* background-color: rgba(34, 34, 34, 0.751); */
+    /* text-align: center; */
+    margin: 0 auto;
+    top: 100px;
+    
+
+}
+p{
+    margin-left: -400px;
+    margin-right: 55px;
+    font-size: 15px;
+    width: 300px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.side-images{
+    display: flex;
+    /* position: absolute; */
+    gap: 50px;
+    /* top: -10px; */
+    /* right: -280px; */
+}
+
+.black-star{
+    
+    /* position: relative; */
+    display: grid;
+    margin-left: 205px;
+}
+
+.black{
+    
+    position: absolute;
+    margin-top: -40px;
+}
+
+.star{
+    position: absolute;
+    margin-top: 5px;
+}
+
+.content-info{
+    font-size: 33px;
+}
+
+.timetable{
+    display: grid;
+    margin-left: 200px;
+    font-family: 'Mulish' ,sans-serif;
+    /* font-weight: 100; */
+
+}
+h6{
+    color: grey;
+}
+
+.filter-category{
+    display: flex;
+    margin-left: 200px;
+    gap: 30px;
+}
+
+.janre{
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(72, 17, 253);
+    border: 1px solid rgb(66, 14, 255);
+    font-family: 'Mulish' ,sans-serif;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.janre:hover{
+    background-color:rgb(72, 17, 253); 
+    border: none;
+    transition: .5s;
+    color: white;
+}
+
+.ticket{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(66, 14, 255) ;
+    font-family: 'Mulish' ,sans-serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.ticket:hover{
+    transition: .4s;
+    background-color: transparent;
+    color: rgb(66, 14, 255);
+    border: 1px solid rgb(66, 14, 255);
+}
+
+.afisha{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(66, 14, 255) ;
+    font-family: 'Mulish' ,sans-serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    transition: .2s;
+}
+
+.afisha:hover{
+    transition: .3s;
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+
+.style{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.style:hover{
+    transition: .3s;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.sth{
+    display: flex;
+    margin-left: 200px;
+    gap: 30px;
+    font-size: 15px;
+}
+
+
+.card{
+    
+    width: 260px;
+    height: 350px;
+    /* padding: 40px; */
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgba(15, 15, 15, 0.788);
+}
+
+.thumbnail{
+    width: 250px;
+    height: 180px;
+    
+}
+
+.about-info{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    /* margin: 10px; */
+    /* justify-content: space-between; */
+}
+
+.second-par{
+    display: flex;
+    width: 900px;
+
+    margin: 0 auto;
+    padding: 10px;
+}
+.sthfoot{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sthfoot2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer{
+    margin-top: 0px;
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-image: none;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .img1 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .the-first-logo {
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .content-section {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px;
+    }
+
+    p {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 12px; 
+        width: 100%;
+    }
+
+    .side-images {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        border-radius: 5px;
+        background-color: rgba(15, 15, 15, 0.788);
+    }
+
+    .thumbnail {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sthfoot,
+    .sthfoot2,
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .janre,
+    .ticket,
+    .afisha {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .style {
+        font-size: 12px; 
+    }
+
+    .content-info {
+        font-size: 18px; 
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        background-color: black;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .burger-menu div {
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        margin: 4px 0;
+        transition: 0.4s;
+    }
+
+    .navbar:hover .burger-menu div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .navbar:hover .burger-menu div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar:hover .burger-menu div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .navbar.active nav {
+        display: grid;
+    }
+
+    nav a {
+        padding: 15px;
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+}
+
